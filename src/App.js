@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 import Joke from './components/Joke';
 
 function App() {
