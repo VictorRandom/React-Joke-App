@@ -4,6 +4,7 @@ import Joke from './components/Joke';
 import jokesData from './components/jokesData';
 
 function App() {
+  console.log(jokesData)
   const jokeElements = jokesData.map((joke) => {
     return <Joke number={joke.number} setup={joke.setup} punchline={joke.punchline} />
   })
